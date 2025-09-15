@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,9 +47,10 @@
   <p>This app does not collect, store, or share any personal information.</p>
   <p>If you have questions, concerns, or want to report any bugs, click the button below:</p>
 
-  <!-- Button that opens email -->
+  <!-- Button -->
   <button class="btn" id="emailBtn">📧 Contact Me</button>
 
+  <!-- Script MUST come after button -->
   <script>
     document.getElementById("emailBtn").addEventListener("click", function() {
       window.location.href = "mailto:khanta01@gettysburg.edu?subject=App%20Support&body=Hello%20Tahmid,";
